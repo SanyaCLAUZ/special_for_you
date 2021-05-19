@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Контакти</title>
+    <link rel="stylesheet" href="style/image.css">
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/contacts.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="shop_name">
+                <strong>Зв'язок</strong>
+            </div>
+            <ul class="menu">
+                <li class="root"><a href="main.html">Main</a></li>
+                <li class="root"><a href="catalog_image.html">Catalog</a></li>
+            </ul>
+        </div>
+        <hr>
+
+        <fieldset>
+            <legend>Запитайте нас</legend>
+            <form action="contacts.html" method="post" class="contact_form">
+                <label for="username">Ваше ім'я</label>
+                <input type="text" id="username" name="username"><br>
+                <label for="email">Ваш email</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com"><br>
+                <label for="subject">Тема листа</label>
+                <input type="text" id="subject" name="subject"><br>
+
+                <textarea name="letter" id="letterBody" placeholder="Ваш текст"></textarea><br>
+
+                <input type="submit" value="Відправити">
+            </form>
+        </fieldset>
+        <h2>Наши контактные данные</h2>
+        <p>
+            <strong>Адреса: </strong>м. Іршава тупік Української вулиці <br>
+            <strong>Телефон: </strong> +380 (951) 123-456 <br>
+            <strong>Email: </strong>papovichka@gmail.com <br>
+        </p>
+    </div>
+</body>
+
+</html>

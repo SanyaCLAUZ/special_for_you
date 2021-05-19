@@ -84,14 +84,16 @@
 }
 
 .shop_name_wrap {
+    background-image: url("../images/delovaya.jpg");
     text-align: center;
     position: absolute;
     width: 270px;
-    height: 300px;
+    height: 270px;
     background-color: #FFE7F8;
     box-sizing: border-box;
     padding: 82px 22px;
     top: 336px;
+    border-radius: 125px;
 }
 
 .shop_name_main {

@@ -7,7 +7,6 @@
 .catalog_product_unit {
     box-sizing: border-box;
     float: left;
-    border: 1px black solid;
     width: 30%;
     margin-right: 5%;
     text-align: center;
@@ -21,4 +20,27 @@
 
 .catalog_product_unit:nth-child(n+4) {
     margin-top: 30px;
+}
+
+.card_button{
+  width: 100px;
+  height: 40px;
+  background: white;
+  border-radius: 8px;
+}
+
+.btn {
+    height: 40px;
+}
+
+.btn {
+    border-radius: 8px;
+    background-color: #FFCCF8; 
+    color: black; 
+    border: 2px solid #f44336;
+}
+
+.btn:hover {
+    background-color: #f44336;
+    color: #FFCCF8;
 }
